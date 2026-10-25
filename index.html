@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wingmen Lille — Osez faire le premier pas</title>
+  <meta name="description" content="Wingmen Lille est un collectif local d'entraide gratuit en lancement dans la métropole lilloise pour apprendre à engager des conversations et faire des rencontres spontanées.">
+  <meta name="theme-color" content="#142338">
+
+  <!-- Open Graph sobre -->
+  <meta property="og:title" content="Wingmen Lille — Osez faire le premier pas">
+  <meta property="og:description" content="Apprendre à aborder quelqu'un qui vous plaît, engager une conversation et faire des rencontres spontanées à Lille. Entraînement entre pairs, 100 % gratuit.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Typographies Google Fonts (Plus Jakarta Sans & Inter) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Lien d'évitement pour l'accessibilité -->
+  <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+
+  <!-- ==================== HEADER / NAVIGATION ==================== -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="Wingmen Lille — Retour en haut">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 64 64" fill="none">
+            <rect width="64" height="64" rx="14" fill="#33465B"/>
+            <path d="M14 40L32 16L50 40L39 36L32 26L25 36L14 40Z" fill="#5ED5BB"/>
+            <path d="M22 47L32 34L42 47L35.5 44.5L32 39.5L28.5 44.5L22 47Z" fill="#F5F7FA" fill-opacity="0.9"/>
+          </svg>
+        </span>
+        <span class="brand-text">Wingmen <span class="brand-accent">Lille</span></span>
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Ouvrir le menu de navigation">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Navigation principale">
+        <ul class="nav-list">
+          <li><a href="#origine" class="nav-link">L'origine</a></li>
+          <li><a href="#concept" class="nav-link">Le concept</a></li>
+          <li><a href="#methode" class="nav-link">La méthode</a></li>
+          <li><a href="#seance" class="nav-link">Une sortie</a></li>
+          <li><a href="#cadre" class="nav-link">L'esprit</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+        </ul>
+        <a href="#contact" class="btn btn-primary btn-sm nav-cta">Prendre contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ==================== 1. HERO SECTION ==================== -->
+    <section class="hero-section">
+      <div class="hero-bg-glow" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <div class="hero-badges" aria-label="Repères clés du collectif">
+            <span class="badge badge-mint">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+              Métropole lilloise
+            </span>
+            <span class="badge badge-slate">Entraide entre pairs</span>
+            <span class="badge badge-slate">100 % Gratuit</span>
+            <span class="badge badge-outline">Collectif en lancement</span>
+          </div>
+
+          <h1 class="hero-title">
+            Osez faire le <span class="text-mint">premier pas.</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Apprendre à aborder quelqu'un qui vous plaît, engager une conversation et faire des rencontres spontanées. Ensemble, c'est plus facile.
+          </p>
+
+          <p class="hero-description">
+            <strong>Wingmen Lille</strong> est un collectif local d'entraide en cours de création. Il réunit des adultes — hommes et femmes — qui souhaitent sortir des applications et s'entraîner concrètement à aller vers les autres dans la vie réelle.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary btn-lg">
+              Participer au projet
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+            <a href="#methode" class="btn btn-secondary btn-lg">
+              Découvrir la méthode
+            </a>
+          </div>
+        </div>
+
+        <!-- Visuel éditorial : rencontre spontanée à Lille -->
+        <div class="hero-visual reveal">
+          <figure class="hero-figure">
+            <div class="hero-image-frame">
+              <img
+                src="assets/hero-conversation.png"
+                alt="Un homme et une femme échangeant spontanément avec le sourire dans une rue piétonne de Lille, avec le beffroi en arrière-plan."
+                width="1536"
+                height="1024"
+                class="hero-editorial-img"
+              >
+            </div>
+            <figcaption class="hero-figcaption">
+              <span class="status-dot" aria-hidden="true"></span>
+              <span>Oser engager la conversation avec naturel dans le quotidien lillois</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 2. L'ORIGINE DU PROJET (CONDENSÉE) ==================== -->
+    <section class="section section-light" id="origine">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">L'histoire du projet</span>
+          <h2 class="section-title">Pourquoi j'ai lancé Wingmen Lille</h2>
+        </div>
+
+        <div class="origin-condensed-grid reveal">
+          <blockquote class="origin-quote-card">
+            <div class="quote-mark" aria-hidden="true">“</div>
+            <p>
+              J'habite dans la métropole lilloise et j'aimerais progresser dans ma capacité à engager spontanément des conversations, particulièrement avec des femmes qui me plaisent.
+            </p>
+            <p>
+              Quelques séances de coaching m'ont fait réaliser une chose essentielle : <strong>la simple présence d'une personne qui m'accompagne, me motive et m'encourage suffit souvent à dépasser l'appréhension du premier contact.</strong>
+            </p>
+            <p class="origin-highlight">
+              Comme les coachings spécialisés sont extrêmement coûteux, j'ai imaginé une alternative locale et gratuite : <strong>réunir à Lille des personnes qui s'entraident pour apprendre à faire des rencontres spontanées.</strong>
+            </p>
+          </blockquote>
+
+          <aside class="origin-aside-card">
+            <div class="origin-aside-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <span class="origin-aside-tag">Entre pairs</span>
+            <h3>Un participant comme vous</h3>
+            <p>
+              Je ne suis pas coach professionnel : je participe moi-même à cette démarche. Le collectif démarre maintenant et se construit avec ses premiers membres.
+            </p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 3. LE CONCEPT DE WINGMAN (CONDENSÉ) ==================== -->
+    <section class="section section-white" id="concept">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">L'effet binôme</span>
+          <h2 class="section-title">Un partenaire pour oser se lancer</h2>
+          <p class="section-subtitle">
+            À l'origine, le <em>wingman</em> est l'ailier qui épaule un pilote. Chez <strong>Wingmen Lille</strong>, le terme désigne un <strong>partenaire d'entraide, homme ou femme</strong> : chacun est tour à tour accompagné et accompagnateur.
+          </p>
+        </div>
+
+        <div class="cards-grid-3 reveal">
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            </div>
+            <h3>Dépasser l'hésitation</h3>
+            <p>
+              Seul en ville, on renonce souvent à la dernière seconde. Être à deux crée l'élan qui aide à franchir le pas sans se mettre trop de pression.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <h3>Dédramatiser ensemble</h3>
+            <p>
+              Échanger juste après une tentative permet de relâcher la tension, de sourire de ses hésitations et de garder un état d'esprit léger.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+            </div>
+            <h3>Gagner en autonomie</h3>
+            <p>
+              La pratique régulière aide à ancrer des repères simples pour oser ensuite engager la conversation seul(e) dans son quotidien.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 4. LA MÉTHODE & LE CYCLE D'ENTRAÎNEMENT ==================== -->
+    <section class="section section-dark" id="methode">
+      <div class="container">
+        <div class="section-header section-header-dark reveal">
+          <span class="section-eyebrow eyebrow-mint">Notre approche</span>
+          <h2 class="section-title text-white">Avancer pas à pas, autour de quatre axes</h2>
+          <p class="section-subtitle text-muted-light">
+            Plutôt que de simples sorties informelles, nous proposons une progression structurée où chacun évolue à son rythme.
+          </p>
+        </div>
+
+        <!-- A. Les 4 axes -->
+        <div class="axes-grid reveal">
+          <article class="axe-card">
+            <div class="axe-top">
+              <span class="axe-number">01</span>
+              <span class="axe-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </span>
+            </div>
+            <h3 class="axe-title">OSER</h3>
+            <p class="axe-desc">
+              Apprendre à dépasser l'appréhension du premier contact grâce à de petits exercices adaptés au niveau de chacun.
+            </p>
+            <div class="axe-tag">Regard, sourire, question simple</div>
+          </article>
+
+          <article class="axe-card">
+            <div class="axe-top">
+              <span class="axe-number">02</span>
+              <span class="axe-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 6.1H3"/><path d="M21 12.1H3"/><path d="M15.1 18H3"/></svg>
+              </span>
+            </div>
+            <h3 class="axe-title">ÉCHANGER</h3>
+            <p class="axe-desc">
+              Développer la spontanéité, l'écoute et l'aptitude à engager puis prolonger une conversation naturelle.
+            </p>
+            <div class="axe-tag">Écoute active, discussion fluide</div>
+          </article>
+
+          <article class="axe-card">
+            <div class="axe-top">
+              <span class="axe-number">03</span>
+              <span class="axe-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+              </span>
+            </div>
+            <h3 class="axe-title">RENCONTRER</h3>
+            <p class="axe-desc">
+              Apprendre à exprimer naturellement son intérêt pour quelqu'un, proposer de se revoir lorsqu'il existe une réciprocité et accepter sereinement un refus.
+            </p>
+            <div class="axe-tag">Intention sincère, respect du refus</div>
+          </article>
+
+          <article class="axe-card">
+            <div class="axe-top">
+              <span class="axe-number">04</span>
+              <span class="axe-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+              </span>
+            </div>
+            <h3 class="axe-title">PROGRESSER</h3>
+            <p class="axe-desc">
+              S'encourager entre partenaires, partager des retours constructifs, suivre sa progression et devenir progressivement autonome.
+            </p>
+            <div class="axe-tag">Suivi personnel, autonomie</div>
+          </article>
+        </div>
+
+        <!-- B. Le Cycle d'Entraînement en 4 temps -->
+        <div class="learning-loop-box reveal">
+          <div class="loop-header">
+            <span class="loop-badge">Comment on progresse</span>
+            <h3>Le cycle d'entraînement à chaque sortie</h3>
+            <p>
+              Pendant les séances, chacun avance grâce à une boucle simple en quatre étapes :
+            </p>
+          </div>
+
+          <div class="loop-steps" role="list">
+            <div class="loop-step" role="listitem">
+              <div class="loop-step-num">1</div>
+              <div class="loop-step-body">
+                <h4>Se fixer un objectif personnel</h4>
+                <p>Choisir un défi réaliste et précis, adapté à son aisance du jour.</p>
+              </div>
+              <div class="loop-connector" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+              </div>
+            </div>
+
+            <div class="loop-step" role="listitem">
+              <div class="loop-step-num">2</div>
+              <div class="loop-step-body">
+                <h4>Pratiquer en situation réelle</h4>
+                <p>Aller vers les autres dans des lieux publics, avec le soutien discret du binôme.</p>
+              </div>
+              <div class="loop-connector" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+              </div>
+            </div>
+
+            <div class="loop-step" role="listitem">
+              <div class="loop-step-num">3</div>
+              <div class="loop-step-body">
+                <h4>Recevoir un retour constructif</h4>
+                <p>Faire le point à chaud avec ses partenaires sur ce qui a aidé ou bloqué.</p>
+              </div>
+              <div class="loop-connector" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+              </div>
+            </div>
+
+            <div class="loop-step" role="listitem">
+              <div class="loop-step-num">4</div>
+              <div class="loop-step-body">
+                <h4>Définir le prochain objectif</h4>
+                <p>Ajuster l'étape suivante pour l'essai d'après ou la prochaine rencontre.</p>
+              </div>
+              <div class="loop-return-badge" title="Retour à l'étape 1">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+                <span>Cycle continu</span>
+              </div>
+            </div>
+          </div>
+
+          <p class="method-disclaimer">
+            Cette méthode constitue un point de départ pragmatique et collaboratif, amené à évoluer avec l'expérience des participants.
+          </p>
+        </div>
+
+        <!-- C. Second Appel à l'Action (Après la méthode) -->
+        <div class="mid-cta-banner reveal">
+          <div class="mid-cta-content">
+            <h3>Envie d’essayer ?</h3>
+            <p>
+              Wingmen Lille recherche ses premiers participants. Pas besoin d’expérience : simplement l’envie de progresser et de s’entraider.
+            </p>
+          </div>
+          <div class="mid-cta-action">
+            <a href="#contact" class="btn btn-primary btn-lg">
+              Rejoindre les premières rencontres
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+            <span class="mid-cta-meta">Gratuit · Sans engagement · Premier échange par e-mail</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 5. À QUOI RESSEMBLERA UNE SORTIE ? ==================== -->
+    <section class="section section-light" id="seance">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">En pratique à Lille</span>
+          <h2 class="section-title">À quoi ressemblera une sortie ?</h2>
+          <p class="section-subtitle">
+            Le collectif démarre : voici comment nous envisageons le déroulement de nos prochains rendez-vous en petit groupe.
+          </p>
+        </div>
+
+        <!-- Frise chronologique en 5 étapes -->
+        <div class="session-timeline reveal">
+          <div class="timeline-item">
+            <div class="timeline-marker">1</div>
+            <div class="timeline-card">
+              <h3>Rendez-vous dans un café</h3>
+              <p>On se retrouve autour d'un verre dans le centre de Lille pour faire connaissance au calme.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker">2</div>
+            <div class="timeline-card">
+              <h3>Choix d'objectifs individuels</h3>
+              <p>Chacun choisit l'exercice personnel qu'il souhaite réaliser pendant la sortie, selon son aisance.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker">3</div>
+            <div class="timeline-card">
+              <h3>Exercices pratiques en ville</h3>
+              <p>Mise en situation dans des lieux publics à proximité, seul ou en binôme, dans le respect de chacun.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker">4</div>
+            <div class="timeline-card">
+              <h3>Débriefing convivial</h3>
+              <p>Retour au café pour partager ses expériences, échanger sur ses difficultés et s'encourager.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker">5</div>
+            <div class="timeline-card">
+              <h3>Objectifs pour la suite</h3>
+              <p>Chacun repart avec une piste personnelle pour la séance suivante.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sélecteur interactif d'exemples par niveau -->
+        <div class="levels-showcase reveal">
+          <div class="levels-header">
+            <div>
+              <span class="levels-label">Exemples d'exercices concrets</span>
+              <h3>À chacun son objectif lors d'une même sortie</h3>
+            </div>
+            <div class="level-tabs" role="tablist" aria-label="Exemples d'objectifs selon le niveau">
+              <button class="level-tab active" role="tab" aria-selected="true" aria-controls="panel-lvl-1" id="tab-lvl-1" data-level="1">
+                Palier 1 · Déclic
+              </button>
+              <button class="level-tab" role="tab" aria-selected="false" aria-controls="panel-lvl-2" id="tab-lvl-2" data-level="2">
+                Palier 2 · Conversation
+              </button>
+              <button class="level-tab" role="tab" aria-selected="false" aria-controls="panel-lvl-3" id="tab-lvl-3" data-level="3">
+                Palier 3 · Rencontre
+              </button>
+            </div>
+          </div>
+
+          <div class="level-panels">
+            <div class="level-panel active" id="panel-lvl-1" role="tabpanel" aria-labelledby="tab-lvl-1">
+              <div class="level-panel-grid">
+                <div class="level-info">
+                  <span class="level-Axis-pill">Axe dominant : OSER</span>
+                  <h4>Pour une personne réservée au départ</h4>
+                  <p>L'idée n'est pas de séduire d'emblée, mais de s'habituer à initier un premier contact simple et agréable en public.</p>
+                </div>
+                <div class="level-example-box">
+                  <strong>Exemple d'objectif pour la séance :</strong>
+                  <p>« Engager 3 courts échanges de 30 secondes (demander un conseil ou faire une remarque spontanée sur le contexte) en maintenant le regard et une voix posée. »</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="level-panel" id="panel-lvl-2" role="tabpanel" aria-labelledby="tab-lvl-2" hidden>
+              <div class="level-panel-grid">
+                <div class="level-info">
+                  <span class="level-Axis-pill">Axe dominant : ÉCHANGER</span>
+                  <h4>Pour une personne à l'aise sur les échanges brefs</h4>
+                  <p>L'enjeu est de dépasser la simple question pratique pour installer une vraie discussion fluide et détendue.</p>
+                </div>
+                <div class="level-example-box">
+                  <strong>Exemple d'objectif pour la séance :</strong>
+                  <p>« Engager la conversation avec deux personnes et prolonger l'échange pendant 2 à 3 minutes en rebondissant naturellement sur leurs réponses. »</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="level-panel" id="panel-lvl-3" role="tabpanel" aria-labelledby="tab-lvl-3" hidden>
+              <div class="level-panel-grid">
+                <div class="level-info">
+                  <span class="level-Axis-pill">Axe dominant : RENCONTRER</span>
+                  <h4>Pour une personne souhaitant assumer son intérêt</h4>
+                  <p>L'enjeu est d'aller parler à quelqu'un qui nous plaît sincèrement, d'exprimer sa démarche sans détour et d'écouter la réciprocité.</p>
+                </div>
+                <div class="level-example-box">
+                  <strong>Exemple d'objectif pour la séance :</strong>
+                  <p>« Aborder une personne qui me plaît, exprimer avec naturel pourquoi je suis venu(e) lui parler, et proposer de se revoir si l'échange est chaleureux et partagé. »</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 6. L'ESPRIT DU GROUPE ==================== -->
+    <section class="section section-white" id="cadre">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">L'esprit du groupe</span>
+          <h2 class="section-title">Un cadre simple, adulte et respectueux</h2>
+        </div>
+
+        <!-- Comparatif Ce qu'est / Ce que n'est pas Wingmen Lille -->
+        <div class="comparison-grid reveal">
+          <div class="comparison-card comparison-positive">
+            <div class="comparison-header">
+              <span class="comparison-badge badge-yes" aria-hidden="true">✓</span>
+              <h3>Wingmen Lille est :</h3>
+            </div>
+            <ul class="comparison-list">
+              <li>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1E9E83" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Un <strong>collectif d'entraide</strong> local dans la métropole lilloise.</span>
+              </li>
+              <li>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1E9E83" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Un <strong>espace d'apprentissage par la pratique</strong> entre pairs.</span>
+              </li>
+              <li>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1E9E83" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Une <strong>initiative entièrement gratuite</strong>, sans démarche commerciale.</span>
+              </li>
+              <li>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1E9E83" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Un <strong>projet collaboratif</strong> évoluant grâce aux contributions de ses membres.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="comparison-card comparison-negative">
+            <div class="comparison-header">
+              <span class="comparison-badge badge-no" aria-hidden="true">✕</span>
+              <h3>Wingmen Lille n'est pas :</h3>
+            </div>
+            <ul class="comparison-list">
+              <li>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D9534F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                <span>Une <strong>agence matrimoniale</strong> ou une application de rencontres.</span>
+              </li>
+              <li>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D9534F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                <span>Un <strong>organisme de coaching payant</strong> ou une formation.</span>
+              </li>
+              <li>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D9534F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                <span>Une <strong>école de techniques de manipulation</strong> ou d'insistance.</span>
+              </li>
+              <li>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D9534F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                <span>Un <strong>service promettant des résultats amoureux</strong>.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Règles essentielles -->
+        <div class="ethics-banner reveal">
+          <div class="ethics-col">
+            <h4>Respect des personnes croisées</h4>
+            <p>
+              Pas de compétition au nombre d'approches, pas d'insistance face à un refus, pas d'interactions intrusives et aucun enregistrement sans consentement.
+            </p>
+          </div>
+          <div class="ethics-col">
+            <h4>Ambiance entre membres</h4>
+            <p>
+              Le but est de s'entraider à faire des rencontres à l'extérieur du groupe. Si des affinités naissent spontanément entre membres, ce n'est évidemment pas interdit, dans un cadre serein et sans pression.
+            </p>
+          </div>
+          <div class="ethics-col">
+            <h4>Dépenses personnelles</h4>
+            <p>
+              Aucune cotisation ni participation financière n'est demandée. Chacun règle simplement sa propre consommation lorsque l'on se retrouve dans un café.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 7. QUESTIONS FRÉQUENTES (FAQ) ==================== -->
+    <section class="section section-light" id="faq">
+      <div class="container container-narrow">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Questions fréquentes</span>
+          <h2 class="section-title">Ce qu'il faut savoir avant de venir</h2>
+        </div>
+
+        <div class="faq-accordion reveal">
+          <details class="faq-item" open>
+            <summary class="faq-question">
+              <span>Où en est le collectif aujourd'hui ?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                Wingmen Lille démarre maintenant. Ce site a pour but de réunir les premières personnes intéressées afin d'organiser nos premières rencontres à Lille et de construire le collectif ensemble.
+              </p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>À qui s'adresse le projet ?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                Aux adultes de la métropole lilloise, hommes et femmes, qu'ils soient débutants ou déjà plus à l'aise, qui souhaitent faire davantage de rencontres dans la vie réelle plutôt que de dépendre uniquement des applications.
+              </p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>Comment se passent le premier contact et la première rencontre ?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                Une fois le formulaire rempli, je vous recontacte personnellement par e-mail. Les premières rencontres pourront se dérouler simplement autour d'un verre à Lille pour faire connaissance avant de lancer les séances pratiques.
+              </p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>Comment les membres s'organiseront-ils ensuite ?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                Un groupe privé (par exemple sur WhatsApp) pourra ensuite être constitué avec les membres actifs, uniquement avec leur accord, pour coordonner facilement les sorties.
+              </p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>L'accompagnement garantit-il de faire des rencontres amoureuses ?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                Non. S'entraîner à plusieurs aide concrètement à dépasser l'appréhension du premier pas et à multiplier les échanges naturels, mais une rencontre dépend toujours de la réciprocité.
+              </p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 8. PRENDRE CONTACT (GOOGLE FORMS) ==================== -->
+    <section class="section section-contact" id="contact">
+      <div class="container">
+        <div class="section-header section-header-dark reveal">
+          <span class="section-eyebrow eyebrow-mint">Nous rejoindre</span>
+          <h2 class="section-title text-white">Prendre contact</h2>
+          <p class="section-subtitle text-muted-light">
+            Vous habitez dans la métropole lilloise et l'initiative vous parle ? Laissez vos coordonnées via le formulaire pour participer aux premières rencontres.
+          </p>
+        </div>
+
+        <div class="contact-layout">
+          <!-- Colonne gauche : Vie privée & Prochaines étapes -->
+          <aside class="privacy-panel reveal" aria-labelledby="privacy-heading">
+            <div class="privacy-card">
+              <div class="privacy-card-header">
+                <span class="privacy-shield" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                </span>
+                <h3 id="privacy-heading">Votre vie privée est respectée</h3>
+              </div>
+
+              <p class="privacy-intro">
+                Afin de préserver la discrétion des participants comme du fondateur, aucune identité n'est exposée sur ce site.
+              </p>
+
+              <ul class="privacy-list">
+                <li>
+                  <strong>Responsable &amp; finalité :</strong>
+                  Les informations sont recueillies par l'initiateur du collectif Wingmen Lille (joignable via ce formulaire puis par retour d'e-mail). Elles servent uniquement à reprendre contact avec vous et à organiser les premières rencontres à Lille, sans aucune utilisation commerciale.
+                </li>
+                <li>
+                  <strong>Outils utilisés :</strong>
+                  Le questionnaire repose sur <strong>Google Forms</strong> et un tableau de suivi <strong>Google Sheets</strong> associé au compte dédié au collectif. Nos premiers échanges se font personnellement par e-mail.
+                </li>
+                <li>
+                  <strong>Groupe WhatsApp ultérieur :</strong>
+                  Un groupe WhatsApp privé pourra éventuellement être proposé ensuite aux membres actifs, avec leur accord. Si un tel groupe est créé, les numéros de téléphone seront visibles par les autres membres de ce groupe.
+                </li>
+                <li>
+                  <strong>Conservation &amp; vos droits :</strong>
+                  Vos réponses sont conservées pendant la durée de nos échanges (et supprimées au bout de 12 mois maximum sans suite). Vous pouvez à tout moment demander l'accès, la rectification ou la suppression de vos données par simple retour d'e-mail.
+                </li>
+              </ul>
+            </div>
+
+            <div class="next-steps-card">
+              <h4>Les prochaines étapes</h4>
+              <ol class="next-steps-list">
+                <li><span>1</span> Vous remplissez le court questionnaire Google Forms.</li>
+                <li><span>2</span> Nous échangeons par e-mail pour convenir d'un premier verre à Lille.</li>
+                <li><span>3</span> Nous lançons ensemble les premières séances en petit groupe.</li>
+              </ol>
+            </div>
+          </aside>
+
+          <!-- Colonne droite : Questionnaire officiel Google Forms -->
+          <div class="form-container-card reveal">
+            <div class="gf-live-wrapper">
+              <div class="gf-live-toolbar">
+                <h3>Questionnaire — Wingmen Lille</h3>
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSeI4L8om4bbviSv_h8p-YkS5D_1sSf6jcLmNIVCDtJrZiBzjQ/viewform"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="gf-external-link"
+                >
+                  <span>Ouvrir dans un nouvel onglet</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+
+              <!-- Sur smartphone : accès direct confortable en plein écran + option d'affichage intégré -->
+              <div class="gf-mobile-launcher">
+                <p>Sur smartphone, vous pouvez ouvrir le questionnaire en plein écran pour plus de confort, ou le remplir directement ci-dessous :</p>
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSeI4L8om4bbviSv_h8p-YkS5D_1sSf6jcLmNIVCDtJrZiBzjQ/viewform"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-primary btn-full"
+                >
+                  Ouvrir le questionnaire en plein écran
+                  <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+                <button type="button" id="gf-toggle-inline" class="btn btn-outline-navy btn-sm">
+                  Afficher le questionnaire directement dans la page
+                </button>
+              </div>
+
+              <!-- Code d'intégration officiel Google Forms -->
+              <div class="gf-iframe-frame is-collapsed-mobile" id="gf-iframe-container">
+                <iframe
+                  src="https://docs.google.com/forms/d/e/1FAIpQLSeI4L8om4bbviSv_h8p-YkS5D_1sSf6jcLmNIVCDtJrZiBzjQ/viewform?embedded=true"
+                  width="100%"
+                  height="1740"
+                  frameborder="0"
+                  marginheight="0"
+                  marginwidth="0"
+                  title="Formulaire Prendre contact — Wingmen Lille"
+                  loading="lazy"
+                >Chargement…</iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand-col">
+        <a href="#top" class="brand footer-brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 64 64" fill="none">
+              <rect width="64" height="64" rx="14" fill="#33465B"/>
+              <path d="M14 40L32 16L50 40L39 36L32 26L25 36L14 40Z" fill="#5ED5BB"/>
+              <path d="M22 47L32 34L42 47L35.5 44.5L32 39.5L28.5 44.5L22 47Z" fill="#F5F7FA" fill-opacity="0.9"/>
+            </svg>
+          </span>
+          <span class="brand-text">Wingmen <span class="brand-accent">Lille</span></span>
+        </a>
+        <p class="footer-tagline">
+          Collectif local d'entraide en lancement dans la métropole lilloise pour apprendre à faire des rencontres spontanées dans la vie réelle.
+        </p>
+      </div>
+
+      <div class="footer-links-col">
+        <nav aria-label="Liens de pied de page" class="footer-nav">
+          <a href="#origine">L'origine</a>
+          <a href="#concept">Le concept</a>
+          <a href="#methode">La méthode</a>
+          <a href="#seance">Une sortie</a>
+          <a href="#cadre">L'esprit</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact">Prendre contact</a>
+        </nav>
+        <p class="footer-legal">
+          Initiative citoyenne, indépendante et 100 % gratuite · Aucun cookie publicitaire · Hébergement : GitHub Pages (GitHub, Inc.).
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script principal -->
+  <script src="js/main.js"></script>
+</body>
+</html>
