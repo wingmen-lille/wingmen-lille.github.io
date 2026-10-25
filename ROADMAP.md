@@ -23,13 +23,13 @@ Cette feuille de route suit l'avancement de la conception, de l'intégration et 
 - [x] Création et paramétrage du formulaire **Prendre contact — Wingmen Lille** + liaison Google Sheets (`Wingmen Lille — Réponses & Suivi`).
 - [x] Connexion de l'URL officielle du Google Forms dans `index.html` et suppression de tous les éléments provisoires.
 - [x] Vérification technique de l'accès public sans compte Google et de la présence des 6 questions.
-- [x] Test d'envoi réel depuis le site local validé.
+- [x] Test d'envoi réel depuis le site validé.
 
 ---
 
-## Phase 4 : Configuration Git & Publication GitHub Pages *(En cours)*
+## Phase 4 : Configuration Git & Publication GitHub Pages *(Terminé)*
 - [x] Initialisation du dépôt Git local (`main`), configuration de l'identité locale isolée (`wingmen-lille` / `wingmen-lille@users.noreply.github.com`) et du dépôt distant `https://github.com/wingmen-lille/wingmen-lille.github.io.git`.
-- [x] Vérification de l'absence de données personnelles dans les fichiers et métadonnées d'images.
+- [x] Vérification de l'absence de données personnelles dans les fichiers, métadonnées d'images et historique Git.
 - [x] Rédaction du guide de maintenance dans `README.md`.
-- [x] Autorisation explicite du fondateur pour le premier commit et la publication.
-- [ ] Publication sur GitHub Pages (`https://wingmen-lille.github.io/`) et vérifications finales en ligne.
+- [x] Autorisation explicite du fondateur et publication sur GitHub Pages (`https://wingmen-lille.github.io/`).
+- [x] Vérifications finales de la version publique en ligne.
